@@ -1,0 +1,7 @@
+python export.py --data data.yaml --weights runs/train/exp/weights/best.pt --imgsz 960 --include torchscript --device cuda:0
+python export.py --data data.yaml --weights runs/train/exp/weights/best.pt --imgsz 960 --include onnx --opset 13 --simplify
+python D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\export.py --data D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\datasets\data.yaml --weights D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\runs\train\exp15\weights\best.pt --imgsz 640 --include onnx --opset 13 --simplify
+python D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\export.py --data D:\Yolo\YOLOv5_trac\yolo\yoov5-visdrone\yolov5-master-temp\datasets\data.yaml --weights D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\runs\train\exp15\weights\best.pt --imgsz 640 --include torchscript --device cuda:0l
+
+ppe:python D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\export.py --data D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\data1\ppe.yaml --weights D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\data1\ppe.pt --imgsz 640 --include onnx --opset 13 --simplify
+ppe: python D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\export.py --data D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\data1\ppe.yaml --weights D:\Yolo\YOLOv5_trac\yolo\yolov5-visdrone\yolov5-master-temp\data1\ppe.pt --imgsz 640 --include torchscript --device cuda:0

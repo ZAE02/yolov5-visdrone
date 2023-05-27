@@ -1,0 +1,30 @@
+## Train/val/test dataset paths
+#train: ./datasets/images/train
+#val: ./datasets/images/val
+#
+## Train/val/test dataset annotations
+## train_labels: ./datasets/labels/train
+## val_labels: ./datasets/labels/val
+## test_labels: ./datasets/labels/test
+#
+## number of classes
+#nc: 2
+#
+## Dataset class names
+#names: ['Red_block','Figure']
+
+
+# Train/val/test dataset paths
+train: ./datasets/images/train
+val: ./datasets/images/val
+
+# Train/val/test dataset annotations
+# train_labels: ./datasets/labels/train
+# val_labels: ./datasets/labels/val
+# test_labels: ./datasets/labels/test
+
+# number of classes
+nc: 2
+
+# Dataset class names
+names: ['Red_block','Figure']

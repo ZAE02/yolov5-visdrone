@@ -1,0 +1,13 @@
+# Train/val/test dataset paths
+train: ./datasets_ppe/train/images
+val: ./datasets_ppe/val/images
+test: ./datasets_ppe/test/images
+
+# Train/val/test dataset annotations
+train_labels: ./datasets_ppe/train/labels
+val_labels: ./datasets_ppe/val/labels
+test_labels: ./datasets_ppe/test/labels
+
+# Dataset class names
+nc: 3
+names: ['helmet',  'with_mask', 'reflective_clothes']

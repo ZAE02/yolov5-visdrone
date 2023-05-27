@@ -1,0 +1,9 @@
+# Train/val/test dataset paths
+train: ./datasets_ppe/train/images
+val: ./datasets_ppe/val/images
+test: ./datasets_ppe/test/images
+
+
+# Dataset class names
+nc: 2
+names: ['fire', 'nofire']
